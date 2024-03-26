@@ -999,7 +999,7 @@
 			#size-cells = <1>;
 			ranges;
 
-			ssi_port1: ssi-port@4805a000 {
+			ssi_port1: port@4805a000 {
 				compatible = "ti,omap3-ssi-port";
 
 				reg = <0x4805a000 0x800>,
@@ -1011,7 +1011,7 @@
 					     <68>;
 			};
 
-			ssi_port2: ssi-port@4805b000 {
+			ssi_port2: port@4805b000 {
 				compatible = "ti,omap3-ssi-port";
 
 				reg = <0x4805b000 0x800>,
