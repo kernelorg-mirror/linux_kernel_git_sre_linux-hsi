@@ -214,7 +214,7 @@
 				#size-cells = <1>;
 				ranges = <0 0 0x4000>;
 
-				hsi_port1: hsi-port@2000 {
+				hsi_port1: port@2000 {
 					compatible = "ti,omap4-hsi-port";
 					reg = <0x2000 0x800>,
 					      <0x2800 0x800>;
@@ -222,7 +222,7 @@
 					interrupts = <GIC_SPI 67 IRQ_TYPE_LEVEL_HIGH>;
 				};
 
-				hsi_port2: hsi-port@3000 {
+				hsi_port2: port@3000 {
 					compatible = "ti,omap4-hsi-port";
 					reg = <0x3000 0x800>,
 					      <0x3800 0x800>;
