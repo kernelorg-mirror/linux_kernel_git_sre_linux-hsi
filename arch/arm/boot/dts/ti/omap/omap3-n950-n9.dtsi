@@ -450,7 +450,7 @@
 
 	ti,ssi-cawake-gpios = <&gpio5 23 GPIO_ACTIVE_HIGH>; /* 151 */
 
-	modem: hsi-client {
+	modem: modem {
 		pinctrl-names = "default";
 		pinctrl-0 = <&modem_pins1 &modem_pins2>;
 
