@@ -1121,7 +1121,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&ssi_pins>;
 
-	ti,ssi-cawake-gpio = <&gpio5 23 GPIO_ACTIVE_HIGH>; /* 151 */
+	ti,ssi-cawake-gpios = <&gpio5 23 GPIO_ACTIVE_HIGH>; /* 151 */
 
 	modem: hsi-client {
 		compatible = "nokia,n900-modem";
